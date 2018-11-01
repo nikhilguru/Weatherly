@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weatherly</string>
+    <string name="action_settings">Settings</string>
+    <string name="change_city">Change City</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="maxt">Max Temp</string>
+    <string name="mint">Min Temp</string>
+    <string name="rain">Rainfall</string>
+    <string name="uk">UK</string>
+    <string name="england">England</string>
+    <string name="scotland">Scotland</string>
+    <string name="wales">Wales</string>
+</resources>

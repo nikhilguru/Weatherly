@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androniks.weatherly.activity.HomeActivity">
+
+    <item android:id="@+id/uk_menu"
+        android:title="@string/uk" />
+
+    <item android:id="@+id/england_menu"
+        android:title="@string/england" />
+
+    <item android:id="@+id/scotland_menu"
+        android:title="@string/scotland" />
+
+    <item android:id="@+id/wales_menu"
+        android:title="@string/wales" />
+
+</menu>
