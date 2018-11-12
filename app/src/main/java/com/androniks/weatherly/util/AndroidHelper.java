@@ -6,6 +6,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.text.TextUtils;
 
+import com.androniks.weatherly.App;
+
 
 public class AndroidHelper {
 
@@ -45,7 +47,6 @@ public class AndroidHelper {
     /**
      * Function to check network is available or not
      *
-     * @param context
      * @return
      */
     public static boolean isNetworkAvailable(Context context) {
