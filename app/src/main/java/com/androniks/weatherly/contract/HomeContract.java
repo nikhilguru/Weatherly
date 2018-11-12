@@ -15,9 +15,9 @@ public interface HomeContract {
 
         void onDestroy();
 
-        void onCityChanged(String city);
+        void setCity(String city);
 
-        void onTypeChanged(String type);
+        void setType(String type);
 
         void onGetTmaxData();
 

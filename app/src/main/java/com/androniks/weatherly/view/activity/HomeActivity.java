@@ -45,8 +45,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         mContext = this;
         initIds();
         presenter = new HomePresenterImp(this, new HomeDataIntractorImp());
-        presenter.onCityChanged(city);
-        presenter.onTypeChanged(Types.TMAX);
+        presenter.setCity(city);
+        presenter.setType(Types.TMAX);
         presenter.onGetTmaxData();
 
 
@@ -96,8 +96,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 mTxtCity.setText(item.getTitle());
-                presenter.onCityChanged(mTxtCity.getText().toString());
-                presenter.onTypeChanged(Types.TMAX);
+                presenter.setCity(mTxtCity.getText().toString());
+                presenter.setType(Types.TMAX);
                 presenter.onGetTmaxData();
                 return false;
             }
@@ -122,8 +122,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         super.onRestoreInstanceState(savedInstanceState);
         city = savedInstanceState.getString(SELECTED_CITY);
         mTxtCity.setText(city);
-        presenter.onCityChanged(city);
-        presenter.onTypeChanged(Types.TMAX);
+        presenter.setCity(city);
+        presenter.setType(Types.TMAX);
         presenter.onGetTmaxData();
     }
 

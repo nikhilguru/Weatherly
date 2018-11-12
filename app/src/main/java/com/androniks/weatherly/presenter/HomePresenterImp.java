@@ -36,18 +36,20 @@ public class HomePresenterImp implements HomeContract.Presenter, HomeContract.Da
     }
 
     @Override
-    public void onCityChanged(String city) {
+    public void setCity(String city) {
         this.city = city;
     }
 
     @Override
-    public void onTypeChanged(String type) {
+    public void setType(String type) {
         this.type = type;
     }
 
+
+
     @Override
     public void onGetTmaxData() {
-        onTypeChanged(Types.TMAX);
+        setType(Types.TMAX);
 
         if (mainView == null || dataIntractor == null ||
                 TextUtils.isEmpty(city) || TextUtils.isEmpty(type)) {
@@ -65,7 +67,7 @@ public class HomePresenterImp implements HomeContract.Presenter, HomeContract.Da
 
     @Override
     public void onGetTminData() {
-        onTypeChanged(Types.TMIN);
+        setType(Types.TMIN);
 
         if (mainView == null || dataIntractor == null ||
                 TextUtils.isEmpty(city) || TextUtils.isEmpty(type)) {
@@ -84,7 +86,7 @@ public class HomePresenterImp implements HomeContract.Presenter, HomeContract.Da
 
     @Override
     public void onGetRainData() {
-        onTypeChanged(Types.RAIN);
+        setType(Types.RAIN);
 
         if (mainView == null || dataIntractor == null ||
                 TextUtils.isEmpty(city) || TextUtils.isEmpty(type)) {
