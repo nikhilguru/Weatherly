@@ -40,6 +40,42 @@
     ]
   },
   {
+        "app_name":"Zili",
+        "app_link":"https://play.google.com/store/apps/details?id=com.mobilemotion.dubsmash",
+        "img":"https://lh3.googleusercontent.com/e6F9nKd8A-y6MUSRtmJoydtKRIWZmQcsqpcq0or9X1u6i3MW6BsME7MAq6G3cbNDRg=s180-rw"
+      },
+      {
+        "app_name":"Lomotif",
+        "app_link":"https://play.google.com/store/apps/details?id=com.lomotif.android",
+        "img":"https://lh3.googleusercontent.com/cJSieV3hOTmKi_MzGGwrS9T427_zW65gql5mCU0aeMEPXIWxvItltO5_IdrY_XI7YA=s180-rw"
+      },
+      {
+        "app_name":"Instagram",
+        "app_link":"https://play.google.com/store/apps/details?id=com.instagram.android",
+        "img":"https://lh3.googleusercontent.com/2sREY-8UpjmaLDCTztldQf6u2RGUtuyf6VT5iyX3z53JS4TdvfQlX-rNChXKgpBYMw=s180-rw"
+      }, {
+        "app_name":"IGTV",
+        "app_link":"https://play.google.com/store/apps/details?id=com.instagram.igtv",
+        "img":"https://lh3.googleusercontent.com/l1wB4ZsDDt4XGAw_EKQxPxLnG3a1qt38G-w5_SBS2XYhWYds5NY3ryzjDticPHd457A=s180-rw"
+      },
+      {
+        "app_name":"4Fun",
+        "app_link":"https://play.google.com/store/apps/details?id=com.nebula.mamu",
+        "img":"https://lh3.googleusercontent.com/AZT7-MRSfoptSgzgEiwsiccMSNXHM9bG7YWUvFtSFaDNdwKv78-7pxWET8BVhMYReeI=s180-rw"
+      },
+      {
+        "app_name":"Snapchat",
+        "app_link":"https://play.google.com/store/apps/details?id=com.snapchat.android",
+        "img":"https://lh3.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo=s180-rw"
+      },
+      {
+        "app_name":"Roposo",
+        "app_link":"https://play.google.com/store/apps/details?id=com.roposo.android",
+        "img":"https://lh3.googleusercontent.com/WvgZ2Q13B1Sj2I5lbhteXz-kUOju7XyOcow6JKah8oqySnkV989pFY1UJ2s-BrkfuS0=s180-rw"
+      }
+    ]
+  },
+  {
     "app_name":"TikTok lite",
     "app_link":"https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
     "alternate_apps":[
