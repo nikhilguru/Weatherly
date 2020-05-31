@@ -707,11 +707,25 @@
       }
     ]
   },
-  {
+   {
     "app_name":"UVideo",
-    "app_link":"https://play.google.com/store/apps/details?id=app.buzz.share",
+    "app_link":"https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
     "alternate_apps":[
       {
+        "app_name":"Dubsmash",
+        "app_link":"https://play.google.com/store/apps/details?id=com.mobilemotion.dubsmash",
+        "img":"https://lh3.googleusercontent.com/e6F9nKd8A-y6MUSRtmJoydtKRIWZmQcsqpcq0or9X1u6i3MW6BsME7MAq6G3cbNDRg=s180-rw"
+      },
+      {
+        "app_name":"Lomotif",
+        "app_link":"https://play.google.com/store/apps/details?id=com.lomotif.android",
+        "img":"https://lh3.googleusercontent.com/cJSieV3hOTmKi_MzGGwrS9T427_zW65gql5mCU0aeMEPXIWxvItltO5_IdrY_XI7YA=s180-rw"
+      },
+      {
+        "app_name":"Instagram",
+        "app_link":"https://play.google.com/store/apps/details?id=com.instagram.android",
+        "img":"https://lh3.googleusercontent.com/2sREY-8UpjmaLDCTztldQf6u2RGUtuyf6VT5iyX3z53JS4TdvfQlX-rNChXKgpBYMw=s180-rw"
+      }, {
         "app_name":"IGTV",
         "app_link":"https://play.google.com/store/apps/details?id=com.instagram.igtv",
         "img":"https://lh3.googleusercontent.com/l1wB4ZsDDt4XGAw_EKQxPxLnG3a1qt38G-w5_SBS2XYhWYds5NY3ryzjDticPHd457A=s180-rw"
