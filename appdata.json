@@ -40,7 +40,11 @@
     ]
   },
   {
-        "app_name":"Zili",
+    "app_name":"Zili",
+    "app_link":"https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
+    "alternate_apps":[
+      {
+        "app_name":"Dubsmash",
         "app_link":"https://play.google.com/store/apps/details?id=com.mobilemotion.dubsmash",
         "img":"https://lh3.googleusercontent.com/e6F9nKd8A-y6MUSRtmJoydtKRIWZmQcsqpcq0or9X1u6i3MW6BsME7MAq6G3cbNDRg=s180-rw"
       },
